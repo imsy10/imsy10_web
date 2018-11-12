@@ -1,0 +1,4 @@
+h2 { margin-left:10px; background: url("../img/icon.png") no-repeat left top;
+    background-size:contain; /* 여백에 맞춰 이미지 조절*/
+    padding-left:50px; padding-top:10px; padding-bottom: 10px;
+}
