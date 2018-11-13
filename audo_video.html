@@ -24,7 +24,7 @@ div img { float: left; margin:5px 15px; }
 
     <h3>Sinfonia</h3>
 
-    <!-- controls 막대 표시 ,autoplay 오픈시 자동으로 재생, muted 시간은 흘러가지만 소리는 안난다, loop 반복재생 -->
+    <!-- controls 막대 표시 ,autoplay 오픈시 자동으로 재생, muted 재생은 되지만 소리는 안난다, loop 반복재생 -->
     <audio controls autoplay muted loop>
         <source src="audio_video/bach.mp3">
         <source src="audio_video/bach.ogg">
@@ -40,11 +40,11 @@ div img { float: left; margin:5px 15px; }
     auto play : 자동재생
     poster : 비디오 화면자리 나타나는 이미지
     -->
-    <video width="450" height="300" controls poster="img/ready.jpg">
+    <video width="450" height="300" controls autoplay poster="img/ready.jpg">
         <source src="audio_video/gate.mp4">
         <source src="audio_video/gate.ogv">
         <source src="audio_video/gate.webm">
         <source src="audio_video/gate.wmv">
-        <track src="audio_video/Painting.vtt" srclang="ko" label="korean" default>
+        <track src="audio_video/Painting.vtt" srclang="ko" label="korean" default > <!--자막파일 -->
     </video>
 </div>
